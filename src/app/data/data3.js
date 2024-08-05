@@ -1,0 +1,81 @@
+const vc = [
+    {
+      id: 1,
+      fileNo: "-",
+      description: "-",
+      category: "-",
+      section: "-",
+      open: "-",
+      close: "-",
+      rackNo:"-",
+      remarks: "-",
+      link: "-",
+    },
+    {
+      id: 2,
+      fileNo: "-",
+      description: "-",
+      category: "-",
+      section: "-",
+      open: "-",
+      close: "-",
+      rackNo:"-",
+      remarks: "-",
+      link: "-",
+    },
+    {
+      id: 3,
+      fileNo: "-",
+      description: "-",
+      category: "-",
+      section: "-",
+      open: "-",
+      close: "-",
+      rackNo:"-",
+      remarks: "-",
+      link: "-",
+    },
+    {
+      id: 4,
+      fileNo: "-",
+      description: "-",
+      category: "-",
+      section: "-",
+      open: "-",
+      close: "-",
+      rackNo:"-",
+      remarks: "-",
+      link: "-",
+    },
+    {
+      id: 5,
+      fileNo: "-",
+      description: "-",
+      category: "-",
+      section: "-",
+      open: "-",
+      close: "-",
+      rackNo:"-",
+      remarks: "-",
+      link: "-",
+    },
+    {
+      id: 6,
+      fileNo: "-",
+      description: "-",
+      category: "-",
+      section: "-",
+      open: "-",
+      close: "-",
+      rackNo:"-",
+      remarks: "-",
+      link: "-",
+    },
+   
+
+  ];
+
+ 
+  
+
+  export default vc;

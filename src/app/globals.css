@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0; /* Black */
+  --background-start-rgb: 255, 255, 255; /* White */
+  --background-end-rgb: 255, 255, 255; /* White */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 0, 0, 0; /* Black */
+    --background-start-rgb: 255, 255, 255; /* White */
+    --background-end-rgb: 255, 255, 255; /* White */
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Customize the scrollbar width */
+::-webkit-scrollbar {
+  width: 5px; /* Adjust the width as needed */
+}
+
+/* Customize the scrollbar track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Light grey background */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Customize the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Darker grey thumb */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Customize the scrollbar thumb when hovered */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Even darker grey when hovered */
+}
+
+.padding-top-8px {
+  padding-top: 8px;
+}
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorPrimary.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorPrimary.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  padding: 15px 30px;
+}
+
+
