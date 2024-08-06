@@ -8,7 +8,7 @@ const TopNavbar = () => {
     <header className="bg-blue-900 h-12 w-full flex justify-between text-white px-10 items-center">
       <div className=" flex items-center">
         <Link href={"/"}>
-          <TiHome />
+          <TiHome className="text size-8" />
         </Link>
         <span className="px-4 font-bold">
           EFMS  (Electronics File Management System)
